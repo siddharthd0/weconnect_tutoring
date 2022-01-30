@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title>--->
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+ <header>
+   <nav>
+   <div class="navbar">
+     <div class="logo">
+      <!--- <img src="images/logo.png" alt="">--->
+     </div>
+     <ul class="menu">
+        < <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="#">Tutoring</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      </nav>
+
+      
+
+  <div class="maincontact">
+        <h1 class="contact_title">
+          Contact Us
+        </h1>
+        <p class="contact_subtitle">
+          Fill up the form below to send us a message.
+        </p>
+      
+      <div class="forms">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+          <input type="hidden" name="apikey" value="1645f1a5-7859-47f1-b43e-778e93709058" />
+          <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+          <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+          <input type="checkbox" name="botcheck" id="" style="display: none;" />
+          <div class="contact_input">
+            <label for="name" class="contact_input">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="John Doe" required class="contact_input1" />
+          </div>
+          <div class="contact_input">
+            <label for="email" class="contact_input">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="johndoe@abcdef.com" required class="contact_input1" />
+          </div>
+          <div class="contact_input">
+            <label for="phone" class="contact_input">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required class="contact_input1" />
+          </div>
+          <div class="mb-6">
+            <label for="message" class="contact_input">Your Message</label>
+
+            <input type="text" name="name" id="name" placeholder="What is your message??"  required class="contact_input1" />
+          </div>
+          <div class="">
+            <button type="submit" class="contact_input_button">
+              Send Message
+            </button>
+          </div>
+          <p class="thingforresult" id="result"></p>
+        </form>
+        </div>
+
+
+</header>
+</div>
+</body>
+</html>
+
+
